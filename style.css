@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #E5D3B3;
+}
+.Total{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.Nav{
+    background-color: #98755474;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-weight: bold;
+}
+.naco a{
+    padding-top: 10px;
+    padding-right: 30px;
+    justify-content: center;
+}
+.search{
+    background-color: rgba(0, 5, 2  , 0.5);
+    width: 30%;
+    height: 50%;
+    border: 1px solid #987554;
+    border-radius: 10px;
+}
+.cart{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.ct1, .ct2, .ct3{
+    background-color: #987554;
+    padding: 5%;
+    padding-left: 100px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.ct4, .ct5, .ct6{
+    background-color: #987554;
+    padding: 5%;
+    padding-left: 100px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.cart h2{
+    padding-top: 10px;
+}
+.cart button{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+}
+.cart img{
+    width: 200px;
+    height: 200px;
+}
+.ac button{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(76,175,80);
+    border-color: rgb(0, 0, 0);
+
+}
+.plmi button{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(76,175,80) ;
+    border-color: rgb(0, 0, 0);
+}
+input{
+    border-radius: 10px;
+    width: 30px;
+}
